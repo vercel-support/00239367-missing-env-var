@@ -1,5 +1,5 @@
 export default function Page() {
-  console.log(process.env.VERCEL_ENV);
+  console.log('test', process.env.VERCEL_ENV);
 
   return (
     <div>
